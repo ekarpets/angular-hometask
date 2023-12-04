@@ -5,14 +5,14 @@
       "name": "Egg",
       "amount": 250,
       "price": 5,
-      "description": "White egg C1",
+      "description": "White egg C1"
     },
     {
       "id": 2,
       "name": "Milk",
       "amount": 1750,
       "price": 24,
-      "description": "Organic product from farm",
+      "description": "Organic product from farm"
     }
   ]
 }
