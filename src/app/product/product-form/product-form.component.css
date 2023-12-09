@@ -1,0 +1,17 @@
+.product-form {
+  background-color: #e6f2e9;
+  border: 1px solid #97a69b;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.product-form input,
+.product-form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+

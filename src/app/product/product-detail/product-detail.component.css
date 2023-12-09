@@ -1,0 +1,12 @@
+.product-detail__buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.product-detail__info {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e6f2e9;
+  border: 1px solid #97a69b;
+}

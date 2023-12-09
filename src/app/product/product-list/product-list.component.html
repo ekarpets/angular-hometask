@@ -1,0 +1,13 @@
+<button (click)="createNewProduct()">Create New Product</button>
+
+<ul class="product-list">
+  <li
+    class="product-list__item"
+    *ngFor="let product of products$ | async"
+    (click)="navigateToProduct(product.id!)"
+  >
+    {{ product.name }} -
+    {{ product.price }}&#8372;
+    <button (click)="deleteProduct(product.id)">Delete</button>
+  </li>
+</ul>

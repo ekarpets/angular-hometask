@@ -1,0 +1,9 @@
+<button (click)="goBack()">Go Back</button>
+<div>
+  <form class="product-form">
+    <input type="text" name="name" [(ngModel)]="newProduct.name" placeholder="Name">
+    <input type="number" name="price" [(ngModel)]="newProduct.price" placeholder="Price" min="1">
+    <textarea [(ngModel)]="newProduct.description" name="description" placeholder="Description"></textarea>
+    <button (click)="addProduct()">Add Product</button>
+  </form>
+</div>

@@ -1,0 +1,21 @@
+.product-list {
+  padding: 10px 0;
+
+  .product-list__item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 10px;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid #97a69b;
+    border-radius: 5px;
+    background-color: #e6f2e9;
+    cursor: pointer;
+  }
+
+  .product-list__item:hover {
+    box-shadow: 10px 5px 5px 5px rgba(151,166,155,0.35);
+  }
+
+}

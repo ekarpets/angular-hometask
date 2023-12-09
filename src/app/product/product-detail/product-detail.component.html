@@ -1,0 +1,22 @@
+<ng-template
+  class="product-detail"
+  [ngIf]="product"
+  [ngIfElse]="isDeleted"
+>
+  <div class="product-detail__buttons">
+    <button (click)="goBack()">Go Back</button>
+    <button (click)="editProduct()">Edit</button>
+    <button (click)="deleteProduct()">Delete</button>
+  </div>
+
+  <div class="product-detail__info">
+    <h2>{{ product.name }}</h2>
+    <p>Price: {{ product.price! }}</p>
+    <p>{{ product.description }}</p>
+  </div>
+</ng-template>
+
+<ng-template #isDeleted>
+  <button (click)="goBack()">Go Back</button>
+  <p>The product is deleted</p>
+</ng-template>

@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  margin: 10px;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #313632;
+}
+
+button {
+  background-color: #97a69b;
+  border: 2px solid #313632;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  min-width: 85px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  box-shadow: 3px 1px 1px 1px rgba(49,54,50,0.35);
+}
