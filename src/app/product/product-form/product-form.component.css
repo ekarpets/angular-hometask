@@ -4,6 +4,8 @@
   padding: 15px;
   margin: 15px 0;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-form input,
@@ -15,3 +17,7 @@
   border-radius: 5px;
 }
 
+.product-form button {
+  width: fit-content;
+  margin: 10px 0;
+}
